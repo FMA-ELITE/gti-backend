@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: gti-backend
+    runtime: node
+    repo: https://github.com/YOUR_USERNAME/gti-backend
+    plan: free
+    envVars:
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: ALPHA_VANTAGE_API_KEY
+        sync: false
